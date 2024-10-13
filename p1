@@ -1,0 +1,27 @@
+
+Hide Assignment Information
+Instructions
+Solve Chapter 4 Programming Problems 4 & 5, where 4 is used by 5.
+
+Note that there is an implicit ordering (by power) to be maintained in the sparse polynomial list as shown in Figure 4-12.
+
+Use a template for the coefficient, so it can be an integral type or a floating point type.  The power type will be an unsigned integer.
+Create a method to display your polynomial:
+The caret symbol "^" is used to indicate powers and coefficients are enclosed in parentheses, so, e.g., the polynomial,
+
+P(x) = 5 x3 + x2 - x - 7, will be displayed as (5)X^3 + X^2 + (-1)X + (-7)
+
+If a coefficient has the value 1 or 1.0 exactly, it is omitted from the display 
+if the power is one, the power is not displayed
+if the power is zero, only the coefficient is displayed
+Constructors:
+Polynomial() // default constructor. Uses 'X' as the printing character for the indeterminate (unknown)
+Polynomial(char) // adds printing character selection to the default constructor. E.g. Polynomial p('y') uses 'y' as the printing character for the indeterminate (unknown)
+Polynomial(Polynomial) // copy constructor.
+Add the following methods:
+sum of two polynomials
+product of a polynomial with a scalar [ a * P(x)]
+evaluate the polynomial for the variable
+Add any additional methods you would like
+Test thoroughly
+Turn in: Project Requirements
